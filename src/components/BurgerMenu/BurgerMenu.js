@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState , useEffect } from "react";
 
 import "./BurgerMenu.scss";
 
@@ -6,6 +6,12 @@ import classNames from "classnames";
 
 const BurgerMenu = ({ isActiveFullMenu, setIsActiveFullMenu }) => {
   const [wasClicked, setWasClicked] = useState(false);
+
+  useEffect(() => {
+    if (!isActiveFullMenu) {
+      setWasClicked(false);
+    }
+  });
 
   return (
     <svg
