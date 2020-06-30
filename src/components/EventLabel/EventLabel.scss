@@ -1,0 +1,48 @@
+.event-label {
+  color: #095d60;
+  font-weight: 700;
+
+  &__date {
+    letter-spacing: 3px;
+    font-weight: 900;
+    font-size: 20px;
+  }
+
+  &__city {
+    opacity: 0.6;
+    margin-top: 5px;
+    font-size: 15px;
+  }
+
+}
+@media screen and (max-width:940px) {
+  .event-label{
+    color: #fff;
+    text-align: center;
+
+    &__date{
+      font-size: 50px;
+    }
+
+    &__city{
+      opacity: 1;
+      font-size: 25px;
+    }
+  }
+}
+
+@media screen and (max-width:480px) {
+  .event-label{
+    color: #fff;
+    text-align: center;
+
+    &__date{
+      font-size: 31px;
+    }
+
+    &__city{
+      font-size: 19px;
+      opacity: 0.6;
+    }
+  }
+}

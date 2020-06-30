@@ -1,0 +1,13 @@
+.video-section {
+  z-index: 1;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .video-section {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+}

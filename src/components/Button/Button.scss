@@ -1,0 +1,33 @@
+.button {
+  display: inline-flex;
+  border: 1px solid transparent;
+  background-color: transparent;
+  font-family: "Kaushan Script", cursive;
+  font-weight: 700;
+  font-size: 40px;
+  transform: skewY(-11.5deg);
+  cursor: pointer;
+  color: #fff;
+  position: relative;
+  transition: 0.3s ease;
+
+  &:hover {
+    transform: scale(1.03) skewY(-11.5deg);
+  }
+
+  &:after {
+    content: "";
+    display: inline-block;
+    height: 10px;
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    background: url(../../assets/button-b.png) center no-repeat;
+  }
+}
+
+@media screen and (max-width:480px){
+  .button{
+    font-size: 30px;
+  }
+}

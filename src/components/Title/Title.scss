@@ -1,0 +1,17 @@
+.title {
+  font-family: "Kaushan Script", cursive;
+  font-size: 110px;
+  color: #fff;
+  font-weight: 700;
+  transform: skewY(-11.5deg);
+  // white-space: nowrap;
+  margin-bottom: 50px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+@media screen and(max-width:940px) {
+  .title {
+    font-size: 70px;
+  }
+}
