@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9afc3dbc12cfe40120dd2b8c170b58c1",
+    "revision": "2eb356fd8e4a4efdecde7c2be7ed0a3b",
     "url": "/react-festival-app/index.html"
   },
   {
-    "revision": "88108e3196608cb196a5",
-    "url": "/react-festival-app/static/css/main.17d311b6.chunk.css"
+    "revision": "4bc0426dcdb2b58f5004",
+    "url": "/react-festival-app/static/css/main.8c4a619d.chunk.css"
   },
   {
     "revision": "0f7b256c5f8ae6aec028",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-festival-app/static/js/2.ed90178e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "88108e3196608cb196a5",
+    "revision": "4bc0426dcdb2b58f5004",
     "url": "/react-festival-app/static/js/main.ec7af37e.chunk.js"
   },
   {
