@@ -16,7 +16,7 @@
 
   &:before {
     content: "";
-    background: #ff5252;
+    background: #282782;
     left: -55%;
     top: 0;
     width: 50%;
@@ -27,7 +27,7 @@
 
   &:after {
     content: "";
-    background: #ff5252;
+    background: #282782;
     right: -55%;
     top: 0;
     width: 50%;
@@ -37,7 +37,7 @@
   }
 
   &.open {
-    opacity: 0.9;
+    opacity: 0.92;
     visibility: visible;
     height: 100%;
 
@@ -83,6 +83,11 @@
       &:last-child {
         margin-bottom: 0;
       }
+    }
+
+    &__link{
+      color: #fff;
+      font-size: 28px;
     }
   }
 }

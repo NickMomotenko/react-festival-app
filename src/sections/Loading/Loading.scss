@@ -29,7 +29,7 @@
     top: 0;
     left: 0;
     transition: 0.4s;
-    background: rgb(239, 218, 189);
+    background: #7970a9;
 
     &--right {
       right: 0;
@@ -52,13 +52,19 @@
 
     .logo {
       display: inline-flex;
+
+      &__link{
+        &-text{
+          color: #fff;
+        }
+      }
     }
   }
 
   &__indicator {
     text-align: center;
     margin-top: 50px;
-    color: #095d60;
+    color: #fff;
     font-size: 20px;
   }
 }
