@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/react-festival-app/static/css/main.ed293ab2.chunk.css",
+    "main.js": "/react-festival-app/static/js/main.ec7af37e.chunk.js",
+    "main.js.map": "/react-festival-app/static/js/main.ec7af37e.chunk.js.map",
+    "runtime-main.js": "/react-festival-app/static/js/runtime-main.03518f22.js",
+    "runtime-main.js.map": "/react-festival-app/static/js/runtime-main.03518f22.js.map",
+    "static/js/2.ed90178e.chunk.js": "/react-festival-app/static/js/2.ed90178e.chunk.js",
+    "static/js/2.ed90178e.chunk.js.map": "/react-festival-app/static/js/2.ed90178e.chunk.js.map",
+    "index.html": "/react-festival-app/index.html",
+    "precache-manifest.3991d9006030150894681715bf92c22a.js": "/react-festival-app/precache-manifest.3991d9006030150894681715bf92c22a.js",
+    "service-worker.js": "/react-festival-app/service-worker.js",
+    "static/css/main.ed293ab2.chunk.css.map": "/react-festival-app/static/css/main.ed293ab2.chunk.css.map",
+    "static/js/2.ed90178e.chunk.js.LICENSE.txt": "/react-festival-app/static/js/2.ed90178e.chunk.js.LICENSE.txt",
+    "static/media/2.png": "/react-festival-app/static/media/2.47fc7803.png",
+    "static/media/2.jpg": "/react-festival-app/static/media/2.ab3eb181.jpg",
+    "static/media/3.jpg": "/react-festival-app/static/media/3.79ff0446.jpg",
+    "static/media/instagram.svg": "/react-festival-app/static/media/instagram.662a4f14.svg",
+    "static/media/tw-1.svg": "/react-festival-app/static/media/tw-1.6c15e125.svg",
+    "static/media/twitter.svg": "/react-festival-app/static/media/twitter.be066898.svg",
+    "static/media/vimeo.svg": "/react-festival-app/static/media/vimeo.9d516b2a.svg",
+    "static/media/vk.svg": "/react-festival-app/static/media/vk.171c8efe.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.03518f22.js",
+    "static/js/2.ed90178e.chunk.js",
+    "static/css/main.ed293ab2.chunk.css",
+    "static/js/main.ec7af37e.chunk.js"
+  ]
+}
