@@ -2,7 +2,7 @@
   height: 100%;
   width: 100%;
   position: fixed;
-  z-index: 10;
+  z-index: 25;
   top: 0;
   left: 0;
 
@@ -30,13 +30,6 @@
     left: 0;
     transition: 0.4s;
     background: rgb(239, 218, 189);
-    background: linear-gradient(
-      90deg,
-      rgba(239, 218, 189, 1) 0%,
-      rgba(175, 227, 183, 1) 14%,
-      rgba(253, 231, 224, 1) 37%,
-      rgba(241, 200, 167, 1) 65%
-    );
 
     &--right {
       right: 0;
@@ -53,9 +46,13 @@
   }
 
   &__logo {
-    animation: test 5s .5s ease infinite;
+    animation: test 5s 0.5s ease infinite;
     transform-style: preserve-3d;
     transition: 0.5s;
+
+    .logo {
+      display: inline-flex;
+    }
   }
 
   &__indicator {
